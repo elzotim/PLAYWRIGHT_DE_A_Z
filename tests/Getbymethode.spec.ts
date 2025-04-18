@@ -18,7 +18,7 @@ test("Practice of getBy methods", async ({ page }) => {
   
     // Remplir le champ de recherche avec le placeholder
     //await page.getByPlaceholder("search store").fill("Mobile");
-  
+  //await page.getByTestId('my-element') // va chercher data-test="my-element"
     // Cliquer sur le bouton "Search"
     //await page.getByRole("button", { name: "Search" }).click();
     // Accès à un autre site de test (saucedemo)
